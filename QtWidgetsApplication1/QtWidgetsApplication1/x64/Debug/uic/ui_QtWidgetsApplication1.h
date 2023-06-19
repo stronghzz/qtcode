@@ -15,6 +15,7 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QStatusBar>
+#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QToolBar>
 #include <QtWidgets/QWidget>
 
@@ -25,6 +26,7 @@ class Ui_QtWidgetsApplication1Class
 public:
     QWidget *centralWidget;
     QPushButton *pushButton;
+    QTextBrowser *textBrowser;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -33,16 +35,19 @@ public:
     {
         if (QtWidgetsApplication1Class->objectName().isEmpty())
             QtWidgetsApplication1Class->setObjectName(QString::fromUtf8("QtWidgetsApplication1Class"));
-        QtWidgetsApplication1Class->resize(677, 442);
+        QtWidgetsApplication1Class->resize(820, 671);
         centralWidget = new QWidget(QtWidgetsApplication1Class);
         centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
         pushButton = new QPushButton(centralWidget);
         pushButton->setObjectName(QString::fromUtf8("pushButton"));
-        pushButton->setGeometry(QRect(230, 120, 93, 28));
+        pushButton->setGeometry(QRect(210, 290, 93, 28));
+        textBrowser = new QTextBrowser(centralWidget);
+        textBrowser->setObjectName(QString::fromUtf8("textBrowser"));
+        textBrowser->setGeometry(QRect(210, 30, 256, 192));
         QtWidgetsApplication1Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(QtWidgetsApplication1Class);
         menuBar->setObjectName(QString::fromUtf8("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 677, 26));
+        menuBar->setGeometry(QRect(0, 0, 820, 26));
         QtWidgetsApplication1Class->setMenuBar(menuBar);
         mainToolBar = new QToolBar(QtWidgetsApplication1Class);
         mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));

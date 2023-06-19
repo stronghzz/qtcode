@@ -23,7 +23,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_QtWidgetsApplication1_t {
     QByteArrayData data[3];
-    char stringdata0[45];
+    char stringdata0[37];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -33,11 +33,11 @@ struct qt_meta_stringdata_QtWidgetsApplication1_t {
 static const qt_meta_stringdata_QtWidgetsApplication1_t qt_meta_stringdata_QtWidgetsApplication1 = {
     {
 QT_MOC_LITERAL(0, 0, 21), // "QtWidgetsApplication1"
-QT_MOC_LITERAL(1, 22, 21), // "on_pushButton_clicked"
-QT_MOC_LITERAL(2, 44, 0) // ""
+QT_MOC_LITERAL(1, 22, 13), // "on_pushButton"
+QT_MOC_LITERAL(2, 36, 0) // ""
 
     },
-    "QtWidgetsApplication1\0on_pushButton_clicked\0"
+    "QtWidgetsApplication1\0on_pushButton\0"
     ""
 };
 #undef QT_MOC_LITERAL
@@ -70,7 +70,7 @@ void QtWidgetsApplication1::qt_static_metacall(QObject *_o, QMetaObject::Call _c
         auto *_t = static_cast<QtWidgetsApplication1 *>(_o);
         Q_UNUSED(_t)
         switch (_id) {
-        case 0: _t->on_pushButton_clicked(); break;
+        case 0: _t->on_pushButton(); break;
         default: ;
         }
     }
