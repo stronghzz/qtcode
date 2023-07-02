@@ -1,10 +1,2 @@
-﻿  Reading Qt configuration (C:/Qt/Qt5.14.2/5.14.2/msvc2017_64/bin/qmake)
-  student.cpp
-  teacher.cpp
-  QtWidgetsApplication2.cpp
-  main.cpp
-  qrc_QtWidgetsApplication2.cpp
-  moc_QtWidgetsApplication2.cpp
-  moc_teacher.cpp
-  moc_student.cpp
+﻿  QtWidgetsApplication2.cpp
   QtWidgetsApplication2.vcxproj -> C:\qtcode\QtWidgetsApplication2\x64\Debug\QtWidgetsApplication2.exe

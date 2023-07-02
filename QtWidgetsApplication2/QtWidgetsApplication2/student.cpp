@@ -9,10 +9,10 @@ student::~student()
 
 void student::treat()
 {
-	qDebug() << "wante eat ";
+	qDebug() << "qinglaoshichifan ";
 }
 
 void student::treat(QString foodname)
 {
-	qDebug() << "wante eat " << foodname;
+	qDebug() << "qinglaoshichifan" << foodname;
 }
